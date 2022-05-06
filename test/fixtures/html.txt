@@ -1,0 +1,15 @@
+Can be used inside HTML
+.
+<div>
+
+:::
+*content*
+:::
+
+</div>
+.
+<div>
+*content*
+</div>
+.
+

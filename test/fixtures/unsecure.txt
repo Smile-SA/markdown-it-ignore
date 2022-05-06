@@ -1,0 +1,53 @@
+
+Simple container
+.
+:::
+*content*
+:::
+.
+*content*
+.
+
+
+Can contain block elements too
+.
+:::
+### heading
+
+-----------
+:::
+.
+### heading
+
+-----------
+.
+
+
+Can contain the : charcater
+.
+:::
+This is a list:
+* item 1
+* item 2
+* item 3
+:::
+.
+This is a list:
+* item 1
+* item 2
+* item 3
+.
+
+
+Can contain HTML
+.
+:::
+<div>
+  <strong>Hello world</strong>
+</div>
+:::
+.
+<div>
+  <strong>Hello world</strong>
+</div>
+.

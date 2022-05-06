@@ -1,0 +1,51 @@
+{
+  "name": "markdown-it-ignore",
+  "version": "0.0.1",
+  "description": "Ignore plugin for markdown-it markdown parser.",
+  "homepage": "https://github.com/Smile-SA/markdown-it-ignore",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Smile-SA/markdown-it-ignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Smile-SA/markdown-it-ignore/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && nyc mocha",
+    "coverage": "npm run test && nyc report --reporter html",
+    "report-coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "browserify": "rollup -c rollup.config.js"
+  },
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "ignore"
+  ],
+  "author": {
+    "name": "Tony Cabaye",
+    "email": "tonai59+github@gmail.com",
+    "url": "https://github.com/tonai"
+  },
+  "license": "GPL",
+  "files": [
+    "index.js",
+    "lib/",
+    "dist/"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.11.0",
+    "markdown-it": "^12.0.0",
+    "markdown-it-testgen": "~0.1.0",
+    "mocha": "8.1.3",
+    "nyc": "^15.1.0",
+    "rollup": "^2.29.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
